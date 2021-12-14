@@ -1,13 +1,18 @@
 #  2021-12-12
 
-测试一下能不能上传上去
-
-为什么我的提交不上去
 
 
-我再尝试一下
 
-我再尝试一下
+# 2021-12-14
+syntax   /ˈsɪntæks/
+语法  
 
-第一次提交已经上去了，
-我再尝试一次
+comments
+注释
+
+` 查看jdk源码   shift连摁两下，  在Classes-All Places 里面搜索`
+
+### idea翻译插件的使用
+    settiings - plugins - Translation 
+
+
