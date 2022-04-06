@@ -10,5 +10,6 @@ package net.yupeng.java.foundational.object;
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello Wordl windows10 & jdk17 &git &maven & idea2021.3");
+        System.out.println("感觉自己好颓废呀呀呀呀，，2022-04-06");
     }
 }
