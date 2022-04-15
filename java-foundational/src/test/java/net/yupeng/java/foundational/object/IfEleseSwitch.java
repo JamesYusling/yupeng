@@ -10,6 +10,47 @@ package net.yupeng.java.foundational.object;
  */
 public class IfEleseSwitch {
     public static void main(String[] args) {
+        int a = 2;
+        int b = 3;
+        if (a > b)
+            System.out.println("这句语句不能输出");
+        System.out.println("这句话能输出，不受上一句判断语句的影响");
+
+        // if else 双分支语句
+        int max;
+        if(a>b){
+            max = a;
+        }else{
+            max = b;
+        }
+        System.out.println("最大值是：" + max );
+
+
+        int score =85;
+        if (score >= 90){
+            System.out.println("您的成绩优秀！");
+        }else if (score >= 80 ){
+            System.out.println("您的成绩良好");
+        }else if (score >= 70){
+            System.out.println("您的成绩中等");
+        }else if (score >= 60){
+            System.out.println("您的成绩及格");
+        }else{
+            System.out.println("您的成绩不及格");
+        }
+
+
+        //求三个数中的最大数
+        int aa=23,bb=36,cc=25;
+        if (aa>cc){
+            max =aa;
+        }else if (bb>cc){
+            max =bb;
+        }else
+            max =cc;
+
+        System.out.println("最大的值是：" + max);
+
 
     }
 }
