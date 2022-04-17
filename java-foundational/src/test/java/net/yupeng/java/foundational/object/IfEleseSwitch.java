@@ -51,6 +51,32 @@ public class IfEleseSwitch {
 
         System.out.println("最大的值是：" + max);
 
+        //switch语句
+        System.out.println("接下来是switch语句了");
+        char studentGrade = 'B';
+        switch (studentGrade){
+            case 'A':
+            case 'a':
+                System.out.println("优秀");
+                break;
+            case 'B':
+            case 'b':
+                System.out.println("良好");
+                break;
+            case 'C':
+            case 'c':
+                System.out.println("中等");
+                break;
+            case 'D':
+            case 'd':
+                System.out.println("及格");
+                break;
+            default :
+                System.out.println("不及格");
+
+
+        }
+
 
     }
 }
