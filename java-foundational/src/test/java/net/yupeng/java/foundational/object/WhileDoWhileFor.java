@@ -103,5 +103,64 @@ public class WhileDoWhileFor {
             }
             System.out.println("");//换行
         }
+
+        //冒泡排序 -于氏冒泡排序 JamesYuSling
+
+        int count=0;    //冒泡排序计数
+        int [] mp ={11,3,5,7,9,2,12,1};
+        int a,b;
+        int length= mp.length;
+        System.out.println("排序前，数组元素序列是：");
+        for (int k = 0; k < length; k++) {
+            System.out.print(mp[k]+" ");
+        }
+        System.out.println("");
+        //使用双层for循环对数组进行排序
+        for (int k = 0; k < length-1; k++) {
+            for (int l = k+1; l < length; l++) {
+                if (mp[k]>mp[l]){
+                    b=mp[k];
+                    mp[k]=mp[l];
+                    mp[l]=b;
+                    count++;
+                }
+                //count++;
+            }
+        }
+        System.out.println("排序后，数组元素序列是：");
+        for (int k = 0; k < length; k++) {
+            System.out.print(mp[k]+" ");
+        }
+        System.out.println("排序后，count:"+count);  //排序需要21次计算；
+
+
+        //冒泡排序2 -标准冒泡排序
+        int [] mp2 ={11,3,5,7,9,2,12,1};
+        int count2=0;
+        System.out.println("排序前，数组元素序列是：");
+        for (int k = 0; k < length; k++) {
+            System.out.print(mp2[k]+" ");
+        }
+        System.out.println("");
+        for(i=0;i<length-1;i++){
+            for(j=0;j<length-1-i;j++){
+                int temp=0;
+                if(mp2[j]>mp2[j+1]){
+                    temp = mp2[j];
+                    mp2[j] = mp2[j+1];
+                    mp2[j+1] = temp;
+                    count2++;
+                }
+            }
+        }
+        System.out.println("排序前，数组元素序列是：");
+        for (int k = 0; k < length; k++) {
+            System.out.print(mp2[k]+" ");
+        }
+        System.out.println("排序后，count2是："+count2);
+
+
+
+
     }
 }
