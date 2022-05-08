@@ -6,11 +6,14 @@ package net.yupeng.java.foundational.object;
  * @since JDK17
  */
 public class test {
-    //通信内容简单加密
+
 
         public static void main(String[] args) {
 
-            char[] message = {'I', ' ', 'l', 'o', 'v', 'e', ' ', 'y', 'o', 'u', '!'};  //定义要加密的字符数组
+            /**
+             * 通信内容简单加密
+             *
+             char[] message = {'I', ' ', 'l', 'o', 'v', 'e', ' ', 'y', 'o', 'u', '!'};  //定义要加密的字符数组
             System.out.println("加密之前，原文内容为：");  //先输出加密之前的内容
             for (int i = 0; i < message.length; i++) {         //遍历字符数组
                 System.out.print(message[i]);          //输出数组中每一个字符
@@ -27,7 +30,11 @@ public class test {
                         character = character - 26;
                 }
                 System.out.print((char) character);
-            }
+            }*/
+
+            char[] helloArray = {'h','e','l','l','o','.'};
+            System.out.println(helloArray);
+
         }
 
 
