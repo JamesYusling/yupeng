@@ -18,7 +18,7 @@ public class LoginCheck {
         }
         //获取用户输入的用户名和密码
         String userName = args[0].trim();  //trim() 方法消除字符串首尾的空格
-        String userPwd = args[0].trim();
+        String userPwd = args[1].trim();
         //将用户输入了用户名和密码与原始的用户名和密码进行比较
         if (!userName.equals(originalUserName)){
             System.out.println("抱歉，您的用户名不正确！请重新输入");
